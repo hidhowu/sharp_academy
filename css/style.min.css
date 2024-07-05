@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap);
+:root {
+  font-size: 10px;
+}
+.pri-font {
+  font-family: Inter, sans-serif;
+}
+.sec-font {
+  font-family: "Open Sans", sans-serif;
+}
+#home {
+  background-image: url(https://demo.jstudios.com.ng/sharc/images/svgs/mobile_hero_line_bg.svg),
+    url(https://demo.jstudios.com.ng/sharc/images/mobile_hero_bottom_bg.webp),
+    url(https://demo.jstudios.com.ng/sharc/images/mobile_hero_top_bg.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0, bottom -20px right 0, top 0 left 0;
+}
+.bg-ltr-grad {
+  background: linear-gradient(89.9deg, #223c8c 45.96%, #0c93d1 96.19%);
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.learn-1,
+.learn-3 {
+  background-image: url(https://demo.jstudios.com.ng/sharc/images/svgs/learn_bg_line.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

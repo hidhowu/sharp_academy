@@ -1,0 +1,12 @@
+sharc.zip
+sharc1.zip
+test.js
+node_modules
+vendor
+includes/db.php
+includes/email_verify.php
+includes/email.php
+includes/email copy.php
+admin/mailersend copy.php
+admin/mailersend.php
+.vscode
